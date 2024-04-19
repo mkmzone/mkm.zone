@@ -1,0 +1,32 @@
+.project {
+    margin-bottom: 4.5rem;
+}
+
+.project img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+    .project img {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .project img {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .project img {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .project img {
+        width: 320px;
+    }
+}
